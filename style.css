@@ -134,12 +134,12 @@ ul li.active a{
     border: 2px solid #ffffff;
 }
 .contact{
-    background-image: url(image.jpg);
+    background-image: url(green.jpg);
     background-attachment: fixed;
     
 }
 .contact h2{
-    color: #ffffff;
+    color: #000000;
     font-size: xx-larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
@@ -148,7 +148,7 @@ ul li.active a{
 }
 
 .contact h4{
-    color: #ffffff;
+    color: #000000;
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
