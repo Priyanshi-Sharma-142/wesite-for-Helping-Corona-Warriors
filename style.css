@@ -194,7 +194,7 @@ nav #icon{
 @media (max-width : 1048px){
  
     .title h1{
-        font-size: 25px;
+        font-size: 18px;
         padding-left: 5px;
     }
     nav ul{
@@ -202,7 +202,7 @@ nav #icon{
 
     }
     nav a{
-        font-size: 20px;
+        font-size: 15px;
     }
     }
 @media (max-width: 909px){
@@ -236,7 +236,7 @@ nav #icon{
 
         }
         .paragraph{
-            font-size: 20px;
+            font-size: 15px;
         }
         a.active, a:hover{
             border: none;
