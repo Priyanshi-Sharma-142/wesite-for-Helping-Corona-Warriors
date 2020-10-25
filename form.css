@@ -7,7 +7,7 @@ body{
     background-position: center;
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 150vh;
+    height: 120vh;
     margin-top: 40px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -126,4 +126,10 @@ body{
 }
 .btn:hover{
     box-shadow: inset 12em 0 0 0 #ffffff;
+}
+@media (max-width: 1048px){
+    .name{
+        font-size: 20px;
+        padding-left: 20px;
+    }
 }

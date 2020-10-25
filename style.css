@@ -5,7 +5,7 @@
 }
 header{
     background-image:  url(corona-warrior.jpg);
-    background-attachment: fixed;
+   
     height: 100vh;
     width: 100%;
     background-size: 100%;
@@ -193,9 +193,9 @@ nav #icon{
 }
 @media (max-width : 1048px){
  
-    .title{
-        font-size: 10px;
-        padding-left: 50px;
+    .title h1{
+        font-size: 25px;
+        padding-left: 5px;
     }
     nav ul{
         margin-right: 20px;
@@ -205,10 +205,10 @@ nav #icon{
         font-size: 20px;
     }
     }
-    @media (max-width: 909px){
-        .title{
-            font-size: 5px;
-            padding-left: 50px;
+@media (max-width: 909px){
+        .title h1{
+            font-size: 18px;
+            padding-left: 5px;
         }
         nav #icon{
             display: block;
@@ -234,6 +234,9 @@ nav #icon{
         nav a{
             font-size: 20px;
 
+        }
+        .paragraph{
+            font-size: 20px;
         }
         a.active, a:hover{
             border: none;
