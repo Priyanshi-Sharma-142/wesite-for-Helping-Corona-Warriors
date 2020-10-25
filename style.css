@@ -187,14 +187,14 @@ nav #icon{
     font-size: 80px;
     line-height: 80px;
     float: right;
-    margin-right: 40px;
+    margin-right:20px;
     cursor: pointer;
     display: none;
 }
 @media (max-width : 1048px){
  
     .title h1{
-        font-size: 18px;
+        font-size: 25px;
         padding-left: 5px;
     }
     nav ul{
@@ -202,12 +202,12 @@ nav #icon{
 
     }
     nav a{
-        font-size: 15px;
+        font-size: 20px;
     }
     }
 @media (max-width: 909px){
         .title h1{
-            font-size: 18px;
+            font-size: 20px;
             padding-left: 5px;
         }
         nav #icon{
@@ -236,7 +236,50 @@ nav #icon{
 
         }
         .paragraph{
-            font-size: 15px;
+            font-size: 24px;
+        }
+        a.active, a:hover{
+            border: none;
+            color: #ffffff;
+        }
+        
+        nav ul.show{
+            left: 0;
+        }
+    }
+    @media (max-width: 400px){
+        .title h1{
+            font-size: 12px;
+            padding-left: 5px;
+        }
+        nav #icon{
+            display: block;
+
+        }
+        nav ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: rgb(25, 141, 133);
+            top: 80px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+
+        }
+        nav li{
+            display: block;
+            margin: 50px 0px;
+            line-height: 30px;
+
+        }
+        nav a{
+            font-size: 20px;
+
+        }
+        .paragraph{
+            font-size: 10px;
+            top:40%
         }
         a.active, a:hover{
             border: none;
