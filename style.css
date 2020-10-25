@@ -134,26 +134,21 @@ ul li.active a{
     border: 2px solid #ffffff;
 }
 .contact{
-    background-image:  url(corona-warrior.jpg);
+    background-image: url(image.jpg);
     background-attachment: fixed;
     
 }
 .contact h2{
-    color: #000000;
+    color: #ffffff;
     font-size: xx-larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
     text-align: center;
     text-emphasis: none;
 }
-.contact p{
-    color: #000000;
-    font-size: medium;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
+
 .contact h4{
-    color: #000000;
+    color: #ffffff;
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
@@ -209,6 +204,8 @@ nav #icon{
         .title h1{
             font-size: 20px;
             padding-left: 5px;
+            margin-top: 10px;
+
         }
         nav #icon{
             display: block;
@@ -251,7 +248,7 @@ nav #icon{
         .title h1{
             font-size: 12px;
             padding-left: 5px;
-            margin-top:20px;
+            margin-top: 10px;
         }
         nav #icon{
             display: block;
